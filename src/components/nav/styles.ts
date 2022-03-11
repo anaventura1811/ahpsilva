@@ -27,7 +27,9 @@ export const NavContainer = styled.nav`
     display: flex;
 
     img {
+      padding: 1rem;
       width: 100%;
+      height: auto;
       /* padding-left: 2rem; */
       height: auto;
     }
