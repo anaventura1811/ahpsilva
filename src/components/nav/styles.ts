@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const NavContainer = styled.nav`
   display: flex;
-  /* padding: 0 2rem; */
   font-family: var(--font-family-subtitle);
+  font-size: 0.95rem;
   color: var(--font-color);
   align-items: center;
   justify-content: space-evenly;
@@ -13,7 +13,6 @@ export const NavContainer = styled.nav`
   position: relative;
   top: 0;
   width: 100%;
-  /* gap: 10rem; */
   max-height: 10rem;
 
   ul {
