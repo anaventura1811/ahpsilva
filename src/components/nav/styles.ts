@@ -1,0 +1,35 @@
+import styled from 'styled-components';
+
+export const NavContainer = styled.nav`
+  display: flex;
+  /* padding: 0 2rem; */
+  font-family: var(--font-family-subtitle);
+  color: var(--font-color);
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  max-width: 1280px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  /* gap: 10rem; */
+  max-height: 10rem;
+
+  ul {
+    display: flex;
+    gap: 1rem;
+    justify-items: flex-end;
+    list-style-type: none;
+  }
+
+  .logo-container {
+    display: flex;
+
+    img {
+      width: 100%;
+      /* padding-left: 2rem; */
+      height: auto;
+    }
+  }
+`;
