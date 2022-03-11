@@ -46,7 +46,7 @@ export const CarouselItem = styled.div`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  height: 250px;
   width: 33%;
   background-color: green;
   color: #fff;

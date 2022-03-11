@@ -1,5 +1,6 @@
 import React, { ReactElement, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'react-feather';
+import { useWindowSize } from '../../talons/windowSize';
 import { CarouselContainer } from './styles';
 
 type Props = {
@@ -10,6 +11,7 @@ export default function Carousel(props: Props) {
  const { children } = props;
  const [activeIndex, setActiveIndex] = useState(0);
 
+ const windowSize = useWindowSize;
 
  const updateImage = (newIndex: number) => {
   if (newIndex < 0) {
