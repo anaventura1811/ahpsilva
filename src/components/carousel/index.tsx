@@ -11,7 +11,9 @@ export default function Carousel(props: Props) {
  const { children } = props;
  const [activeIndex, setActiveIndex] = useState(0);
 
- const windowSize = useWindowSize;
+ const windowSize = useWindowSize();
+ const isDesktop = windowSize.innerWidth >= 1200;
+ console.log('is Desktop', isDesktop);
 
  const updateImage = (newIndex: number) => {
   if (newIndex < 0) {
@@ -31,7 +33,7 @@ export default function Carousel(props: Props) {
           return React.cloneElement(child, { width: "33%"});
         })}
       </div>
-      <div className='indicators'>
+      {isDesktop && <div className='indicators'>
         <button className='btn-prev' disabled={activeIndex <= 0} onClick={() => updateImage(activeIndex - 1)
         }>
           <ChevronLeft color="#fff" size={36} />
@@ -47,7 +49,7 @@ export default function Carousel(props: Props) {
           updateImage(activeIndex + 1)}>
          <ChevronRight color="#fff" size={36} />
         </button>
-      </div>
+      </div>}
     </CarouselContainer>
   );
 };

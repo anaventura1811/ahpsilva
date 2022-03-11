@@ -1,19 +1,17 @@
 import { useEffect, useState, useCallback, useMemo} from 'react';
 
-type Props = {};
-
-export function useWindowSize(props: Props) {
+export function useWindowSize() {
 
   const hasWindow = useMemo(() => typeof window !== 'undefined', []);
 
   const getWindowDimensions = useCallback(() => {
-    const innerWidth = hasWindow ? window.innerWidth :  null;
-    const innerHeight = hasWindow ? window.innerHeight : null;
+    const innerWidth = window.innerWidth;
+    const innerHeight = window.innerHeight;
     return {
       innerWidth,
       innerHeight
     };
-  }, [hasWindow]);
+  }, []);
 
   const [windowSize, setWindowSize] = useState(getWindowDimensions);
 
