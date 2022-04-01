@@ -12,14 +12,9 @@ export const SummaryContainer = styled.div`
   justify-content: space-evenly;
   flex-wrap: nowrap;
   flex-direction: row;
-  gap: 2rem;
+  /* gap: 2rem; */
   padding: 0 0 0 2rem;
 
-  /* .container-hexagono {
-    position: absolute;
-    top: auto;
-    display: flex;
-  } */
 
   .image-container {
     position: relative;
@@ -30,7 +25,7 @@ export const SummaryContainer = styled.div`
   }
 
   .image-container > img {
-    position: absolute;
+    position: relative;
     width: auto;
     height: 30vw;
   }
@@ -39,6 +34,27 @@ export const SummaryContainer = styled.div`
     display: flex;
     flex-direction: column;
     max-width: 50%;
+    font-family: var(--font-family-subtitle);
+    font-weight: 300;
+
+    > h2 {
+      font-weight: 700;
+    }
+  }
+
+  @media (max-width: 980px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .history-text {
+      max-width: 100%;
+      margin: 0.8rem;
+    }
+
+    .image-container > img {
+      height: 45vw;
+    }
   }
  
 `;

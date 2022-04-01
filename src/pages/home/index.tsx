@@ -4,6 +4,7 @@ import { CarouselItem } from '../../components/carousel/styles';
 import Nav from '../../components/nav';
 import Summary from '../../components/summary';
 import { Container, ContentContainer } from './styles';
+import FieldsOfWork from '../../components/fieldsOfWork';
 
 type Props = {}
 
@@ -39,6 +40,10 @@ export default function Home(props: Props) {
         </div>
         <div className='summary-container'>
           <Summary />
+        </div>
+        <div className='fields-of-work'>
+          <FieldsOfWork />
+
         </div>
       </ContentContainer>
     </div>

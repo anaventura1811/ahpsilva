@@ -32,4 +32,12 @@ export const NavContainer = styled.nav`
       height: auto;
     }
   }
+
+  @media (max-width: 980px) {
+    align-items: space-between;
+    justify-content: space-evenly;
+    ul {
+      display: none;
+    }
+  }
 `;

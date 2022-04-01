@@ -11,10 +11,23 @@ export const Container = styled.header`
 
 export const ContentContainer = styled.div`
 
+  .main-content {
+    width: 100vw;
+    height: 100vh;
+  }
+
   .summary-container {
     width: 100vw;
+    height: 100vh;
     background-color: var(--gray-background-color);
     display: flex;
     align-items: center;
   }
+
+  /* @media (max-width: 1200px) {
+    .summary-container {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  } */
 `;
