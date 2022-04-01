@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const CarouselContainer = styled.div`
   overflow: hidden;
   width: 100%;
+  height: 35vw;
+  padding-top: 0.5rem;
+  background-color: var(--secondary-background-color);
 
   .inner {
     white-space: nowrap;
@@ -46,8 +49,8 @@ export const CarouselItem = styled.div`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 250px;
+  height: 30vw;
   width: 33%;
-  background-color: green;
-  color: #fff;
+  background-color: var(--secondary-background-color);
+  color: var(--gray-background-color);
 `;

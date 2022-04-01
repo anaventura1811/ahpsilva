@@ -13,7 +13,6 @@ export default function Carousel(props: Props) {
 
  const windowSize = useWindowSize();
  const isDesktop = windowSize.innerWidth >= 1200;
- console.log('is Desktop', isDesktop);
 
  const updateImage = (newIndex: number) => {
   if (newIndex < 0) {
@@ -23,8 +22,6 @@ export default function Carousel(props: Props) {
   }
   setActiveIndex(newIndex);
  };
-
-//  if (!children) return null;
 
   return (
     <CarouselContainer>

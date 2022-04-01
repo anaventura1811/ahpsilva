@@ -6,6 +6,7 @@ body {
   /* colors: */
   --main-background-color: #364082;
   --secondary-background-color: #f4f4f4;
+  --gray-background-color: #373434;
 
   /* fonts */
   --font-family-subtitle: 'Fira Sans', sans-serif;

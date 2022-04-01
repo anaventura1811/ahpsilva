@@ -1,11 +1,10 @@
-import React from 'react';
 import { NavContainer } from './styles';
 import logo from '../../assets/logo/logo2.svg';
 import {FaUserCircle} from 'react-icons/fa';
 
 type Props = {};
 
-export default function Nav(props: Props) {
+export default function Nav(_props: Props) {
   return (
     <NavContainer>
       <div className='logo-container'>
