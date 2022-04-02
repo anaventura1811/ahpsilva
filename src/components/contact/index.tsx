@@ -4,7 +4,6 @@ import { FaInstagramSquare } from 'react-icons/fa';
 import {IoLogoWhatsapp} from 'react-icons/io';
 import { useWindowSize } from '../../talons/windowSize';
 import { ContactInfoContainer } from './styles';
-import { Link } from 'react-router-dom';
 
 type Props = {};
 

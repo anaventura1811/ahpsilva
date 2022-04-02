@@ -1,6 +1,6 @@
 import { NavContainer } from './styles';
 import logo from '../../assets/logo/logo2.svg';
-import {FaUserCircle} from 'react-icons/fa';
+// import {FaUserCircle} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 type Props = {};
