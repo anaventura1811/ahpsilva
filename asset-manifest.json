@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac2a1501.css",
+    "main.js": "/static/js/main.c8c1d670.js",
+    "static/js/787.1c09eaa6.chunk.js": "/static/js/787.1c09eaa6.chunk.js",
+    "static/media/justice.png": "/static/media/justice.7cb21c6f8d604d169cfb.png",
+    "static/media/logo2.svg": "/static/media/logo2.1d6847f87061fc8a5c58fe8e837677c7.svg",
+    "index.html": "/index.html",
+    "main.ac2a1501.css.map": "/static/css/main.ac2a1501.css.map",
+    "main.c8c1d670.js.map": "/static/js/main.c8c1d670.js.map",
+    "787.1c09eaa6.chunk.js.map": "/static/js/787.1c09eaa6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac2a1501.css",
+    "static/js/main.c8c1d670.js"
+  ]
+}
