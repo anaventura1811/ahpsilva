@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ahpsilva/static/css/main.ac2a1501.css",
+    "main.js": "/ahpsilva/static/js/main.a61d1b09.js",
+    "static/js/787.1c09eaa6.chunk.js": "/ahpsilva/static/js/787.1c09eaa6.chunk.js",
+    "static/media/justice.png": "/ahpsilva/static/media/justice.7cb21c6f8d604d169cfb.png",
+    "static/media/logo2.svg": "/ahpsilva/static/media/logo2.1d6847f87061fc8a5c58fe8e837677c7.svg",
+    "index.html": "/ahpsilva/index.html",
+    "main.ac2a1501.css.map": "/ahpsilva/static/css/main.ac2a1501.css.map",
+    "main.a61d1b09.js.map": "/ahpsilva/static/js/main.a61d1b09.js.map",
+    "787.1c09eaa6.chunk.js.map": "/ahpsilva/static/js/787.1c09eaa6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac2a1501.css",
+    "static/js/main.a61d1b09.js"
+  ]
+}
