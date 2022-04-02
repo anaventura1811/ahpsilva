@@ -6,11 +6,12 @@ export const ContactInfoContainer = styled.div`
   font-family: var(--font-family-subtitle); 
   font-weight: 300;
   color: var(--gray-background-color);
+  position: relative;
 
   .container {
     display: flex;
     flex-direction: column;
-    max-width: 1200px !important;
+    max-width: 1280px !important;
     align-items: center;
 
     > h2 {
@@ -39,10 +40,24 @@ export const ContactInfoContainer = styled.div`
       flex-wrap: wrap;
       justify-content: center;
 
+      .media-info {
+        justify-content: space-around;
+        align-items: space-between;
+        display: flex;
+        flex-direction: column;
+      }
+
       .subcontainer {
   
         .social-media > h3 {
           text-transform: uppercase;
+          text-align: left;
+        }
+
+        .social-media > div {
+          display: flex;
+          gap: 1rem;
+          justify-content: center;
         }
 
         .info {
@@ -96,7 +111,9 @@ export const ContactInfoContainer = styled.div`
         }
       }
 
+      .rodape > p {
+        font-size: 0.75rem;
+      }
     }
-    
   }
 `;

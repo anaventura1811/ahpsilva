@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 export const FieldsContainer = styled.div`
-  width: 100vw;
-  height: 100vh;
-  background-color: var(--main-background-color);
   display: flex;
+  max-width: 1280px;
   flex-direction: column;
   font-family: var(--font-family-subtitle);
   font-weight: 700;
@@ -17,14 +15,37 @@ export const FieldsContainer = styled.div`
 
   ul {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 2rem;
+    gap: 1rem;
+    align-items: center;
+
+    .description {
+      font-weight: 300;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      gap: 0;
+    }
 
     li {
       list-style-type: none;
       display: flex;
+      cursor: pointer;
+      padding-bottom: 1rem;
+      text-transform: capitalize;
       /* gap: 0.5rem; */
+    }
+
+    .inactive {
+      display: none;
+    }
+
+    li:hover {
+      text-decoration: underline;
+      cursor: pointer;
+      text-decoration-color: var(--secondary-font-color);
     }
   }
 

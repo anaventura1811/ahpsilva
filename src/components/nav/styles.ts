@@ -20,6 +20,11 @@ export const NavContainer = styled.nav`
     gap: 1rem;
     justify-items: flex-end;
     list-style-type: none;
+
+    li > a {
+      text-decoration: none;
+      color: var(--font-color);
+    }
   }
 
   .logo-container {

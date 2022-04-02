@@ -16,6 +16,24 @@ export const ContentContainer = styled.div`
     height: 100vh;
   }
 
+  background-color: var(--font-color);
+  .rodape {
+    position: static;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    text-align: left;
+    font-size: 0.75rem;
+    padding: 1rem 2rem;
+    font-weight: 300;
+    
+    > p {
+      font-family: var(--font-family-subtitle); 
+      color: var(--gray-background-color);
+      max-width: 1280px;
+    }
+  }
+
   .summary-container {
     width: 100vw;
     height: 100vh;
@@ -26,6 +44,12 @@ export const ContentContainer = styled.div`
 
   .title_underline {
 
+  }
+
+  .fields-of-work {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--main-background-color);
   }
 
   .title_underline:after {

@@ -19,50 +19,166 @@ const FieldsOfWork = (props: Props) => {
     <FieldsContainer>
       <h2>Áreas de atuação</h2>
       <ul>
-        <div>
-          <li onClick={() => handleClickOnField("criminal")}>
+          <li className={clicked && clicked !== 'criminal' ? 'inactive' : ''} onClick={() => handleClickOnField("criminal")}>
             {clicked === "criminal" ? <ChevronDown size={20} strokeWidth={3} color={"#d08d57"}/> : <ChevronRight size={20} strokeWidth={3} color={"#f3efe9"} />}
             Direito criminal
           </li>
-          <li onClick={() => handleClickOnField("civil")}>
+            {clicked === 'criminal' &&
+              (<div className='description' >
+                <p>Defesa em Processo e/ou Inquérito Penal</p>
+                <p>Liberdade Provisória</p> 
+                <p>Habeas Corpus</p>
+                <p>Revogação de Prisão Preventiva </p>
+                <p>Revogação de Prisão Temporária</p>
+                <p>Relaxamento de Prisão em Flagrante</p>
+                <p>Revisão Criminal</p>
+                <p>Atuação em 1ª e 2ª Instância e Instâncias, além de sermos, atualmente, referência em atuação perante o STJ e STF</p>
+              </div>)
+            }
+          <li className={clicked && clicked !== 'civil' ? 'inactive' : ''} onClick={() => handleClickOnField("civil")}>
           {clicked === "civil" ? <ChevronDown size={20} strokeWidth={3} color={"#d08d57"}/> : <ChevronRight size={20} strokeWidth={3} color={"#f3efe9"} />}
             Direito civil
           </li>
-          <li onClick={() => handleClickOnField("familia")}> 
+            {clicked === 'civil' &&
+              (<div className='description' >
+                <p>Defesa em Processo e/ou Inquérito Penal</p>
+                <p>Liberdade Provisória</p> 
+                <p>Habeas Corpus</p>
+                <p>Revogação de Prisão Preventiva </p>
+                <p>Revogação de Prisão Temporária</p>
+                <p>Relaxamento de Prisão em Flagrante</p>
+                <p>Revisão Criminal</p>
+                <p>Atuação em 1ª e 2ª Instância e Instâncias, além de sermos, atualmente, referência em atuação perante o STJ e STF</p>
+              </div>)
+            }
+          <li className={clicked && clicked !== 'familia' ? 'inactive' : ''} onClick={() => handleClickOnField("familia")}> 
           {clicked === "familia" ? <ChevronDown size={20} strokeWidth={3} color={"#d08d57"}/> : <ChevronRight size={20} strokeWidth={3} color={"#f3efe9"} />}
             Direito de família
           </li>
-          <li onClick={() => handleClickOnField("previdenciario")}>
+            {clicked === 'familia' &&
+              (<div className='description' >
+                <p>Defesa em Processo e/ou Inquérito Penal</p>
+                <p>Liberdade Provisória</p> 
+                <p>Habeas Corpus</p>
+                <p>Revogação de Prisão Preventiva </p>
+                <p>Revogação de Prisão Temporária</p>
+                <p>Relaxamento de Prisão em Flagrante</p>
+                <p>Revisão Criminal</p>
+                <p>Atuação em 1ª e 2ª Instância e Instâncias, além de sermos, atualmente, referência em atuação perante o STJ e STF</p>
+              </div>)
+            }
+          <li className={clicked && clicked !== 'previdenciario' ? 'inactive' : ''} onClick={() => handleClickOnField("previdenciario")}>
           {clicked === "previdenciario" ? <ChevronDown size={20} strokeWidth={3} color={"#d08d57"}/> : <ChevronRight size={20} strokeWidth={3} color={"#f3efe9"} />}
             Direito previdenciário
           </li>
-          <li onClick={() => handleClickOnField("sucessorio")}>
+            {clicked === 'previdenciario' &&
+              (<div className='description' >
+                <p>Defesa em Processo e/ou Inquérito Penal</p>
+                <p>Liberdade Provisória</p> 
+                <p>Habeas Corpus</p>
+                <p>Revogação de Prisão Preventiva </p>
+                <p>Revogação de Prisão Temporária</p>
+                <p>Relaxamento de Prisão em Flagrante</p>
+                <p>Revisão Criminal</p>
+                <p>Atuação em 1ª e 2ª Instância e Instâncias, além de sermos, atualmente, referência em atuação perante o STJ e STF</p>
+              </div>)
+            }
+          <li className={clicked && clicked !== 'sucessorio' ? 'inactive' : ''} onClick={() => handleClickOnField("sucessorio")}>
           {clicked === "sucessorio" ? <ChevronDown size={20} strokeWidth={3} color={"#d08d57"}/> : <ChevronRight size={20} strokeWidth={3} color={"#f3efe9"} />}
             Direito sucessório
           </li>
-        </div>
-        <div>
-          <li onClick={() => handleClickOnField("consumidor")}>
+            {clicked === 'sucessorio' &&
+              (<div className='description' >
+                <p>Defesa em Processo e/ou Inquérito Penal</p>
+                <p>Liberdade Provisória</p> 
+                <p>Habeas Corpus</p>
+                <p>Revogação de Prisão Preventiva </p>
+                <p>Revogação de Prisão Temporária</p>
+                <p>Relaxamento de Prisão em Flagrante</p>
+                <p>Revisão Criminal</p>
+                <p>Atuação em 1ª e 2ª Instância e Instâncias, além de sermos, atualmente, referência em atuação perante o STJ e STF</p>
+              </div>)
+            }
+          <li className={clicked && clicked !== 'consumidor' ? 'inactive' : ''} onClick={() => handleClickOnField("consumidor")}>
           {clicked === "consumidor" ? <ChevronDown size={20} strokeWidth={3} color={"#d08d57"}/> : <ChevronRight size={20} strokeWidth={3} color={"#f3efe9"} />}
             Direito do consumidor
           </li>
-          <li onClick={() => handleClickOnField("trabalhista")}>
+            {clicked === 'consumidor' &&
+              (<div className='description' >
+                <p>Defesa em Processo e/ou Inquérito Penal</p>
+                <p>Liberdade Provisória</p> 
+                <p>Habeas Corpus</p>
+                <p>Revogação de Prisão Preventiva </p>
+                <p>Revogação de Prisão Temporária</p>
+                <p>Relaxamento de Prisão em Flagrante</p>
+                <p>Revisão Criminal</p>
+                <p>Atuação em 1ª e 2ª Instância e Instâncias, além de sermos, atualmente, referência em atuação perante o STJ e STF</p>
+              </div>)
+            }
+          <li className={clicked && clicked !== 'trabalhista' ? 'inactive' : ''} onClick={() => handleClickOnField("trabalhista")}>
           {clicked === "trabalhista" ? <ChevronDown size={20} strokeWidth={3} color={"#d08d57"}/> : <ChevronRight size={20} strokeWidth={3} color={"#f3efe9"} />}
             Direito trabalhista
           </li>
-          <li onClick={() => handleClickOnField("administrativo")}>
+            {clicked === 'trabalhista' &&
+              (<div className='description' >
+                <p>Defesa em Processo e/ou Inquérito Penal</p>
+                <p>Liberdade Provisória</p> 
+                <p>Habeas Corpus</p>
+                <p>Revogação de Prisão Preventiva </p>
+                <p>Revogação de Prisão Temporária</p>
+                <p>Relaxamento de Prisão em Flagrante</p>
+                <p>Revisão Criminal</p>
+                <p>Atuação em 1ª e 2ª Instância e Instâncias, além de sermos, atualmente, referência em atuação perante o STJ e STF</p>
+              </div>)
+            }
+          <li className={clicked && clicked !== 'administrativo' ? 'inactive' : ''} onClick={() => handleClickOnField("administrativo")}>
           {clicked === "administrativo" ? <ChevronDown size={20} strokeWidth={3} color={"#d08d57"}/> : <ChevronRight size={20} strokeWidth={3} color={"#f3efe9"} />}
             Direito administrativo
           </li>
-          <li onClick={() => handleClickOnField("empresarial")}>
-          {clicked === "empresarial" ? <ChevronDown size={20} strokeWidth={3} color={"#d08d57"}/> : <ChevronRight size={20} strokeWidth={3} color={"#f3efe9"} />}
+            {clicked === 'administrativo' &&
+              (<div className='description' >
+                <p>Defesa em Processo e/ou Inquérito Penal</p>
+                <p>Liberdade Provisória</p> 
+                <p>Habeas Corpus</p>
+                <p>Revogação de Prisão Preventiva </p>
+                <p>Revogação de Prisão Temporária</p>
+                <p>Relaxamento de Prisão em Flagrante</p>
+                <p>Revisão Criminal</p>
+                <p>Atuação em 1ª e 2ª Instância e Instâncias, além de sermos, atualmente, referência em atuação perante o STJ e STF</p>
+              </div>)
+            }
+          <li className={clicked && clicked !== 'empresarial' ? 'inactive' : ''} onClick={() => handleClickOnField("empresarial")}>
+            {clicked === "empresarial" ? <ChevronDown size={20} strokeWidth={3} color={"#d08d57"}/> : <ChevronRight size={20} strokeWidth={3} color={"#f3efe9"} />}
             Direito empresarial ou comercial
           </li>
-          <li onClick={() => handleClickOnField("eleitoral")}>
+            {clicked === 'empresarial' &&
+              (<div className='description' >
+                <p>Defesa em Processo e/ou Inquérito Penal</p>
+                <p>Liberdade Provisória</p> 
+                <p>Habeas Corpus</p>
+                <p>Revogação de Prisão Preventiva </p>
+                <p>Revogação de Prisão Temporária</p>
+                <p>Relaxamento de Prisão em Flagrante</p>
+                <p>Revisão Criminal</p>
+                <p>Atuação em 1ª e 2ª Instância e Instâncias, além de sermos, atualmente, referência em atuação perante o STJ e STF</p>
+              </div>)
+            }
+          <li className={clicked && clicked !== 'eleitoral' ? 'inactive' : ''} onClick={() => handleClickOnField("eleitoral")}>
           {clicked === "eleitoral" ? <ChevronDown size={20} strokeWidth={3} color={"#d08d57"}/> : <ChevronRight size={20} strokeWidth={3} color={"#f3efe9"} />}
             Direito eleitoral
           </li>
-        </div>
+            {clicked === 'eleitoral' &&
+              (<div className='description' >
+                <p>Defesa em Processo e/ou Inquérito Penal</p>
+                <p>Liberdade Provisória</p> 
+                <p>Habeas Corpus</p>
+                <p>Revogação de Prisão Preventiva </p>
+                <p>Revogação de Prisão Temporária</p>
+                <p>Relaxamento de Prisão em Flagrante</p>
+                <p>Revisão Criminal</p>
+                <p>Atuação em 1ª e 2ª Instância e Instâncias, além de sermos, atualmente, referência em atuação perante o STJ e STF</p>
+              </div>)
+            }
       </ul>
     </FieldsContainer>
   );

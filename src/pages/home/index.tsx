@@ -17,7 +17,7 @@ export default function Home(props: Props) {
         <Nav />
       </Container>
       <ContentContainer>
-        <div className='main-content'>
+        {/* <div className='main-content'>
             <Carousel>
               <CarouselItem>
                 Item1
@@ -38,7 +38,7 @@ export default function Home(props: Props) {
                 Item6
               </CarouselItem>
             </Carousel>
-        </div>
+        </div> */}
         <div className='summary-container'>
           <Summary />
         </div>
@@ -49,6 +49,9 @@ export default function Home(props: Props) {
         <div className='contact-info'>
           <ContactInfo />
         </div>
+        <footer className='rodape'>
+            <p>Copyright - Escritório AHP Silva. Todos os direitos reservados. 2022</p>
+        </footer>
       </ContentContainer>
     </div>
   );

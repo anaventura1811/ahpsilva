@@ -1,6 +1,7 @@
 import { NavContainer } from './styles';
 import logo from '../../assets/logo/logo2.svg';
 import {FaUserCircle} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 type Props = {};
 
@@ -16,16 +17,22 @@ export default function Nav(_props: Props) {
           Artigos
         </li> */}
         <li>
-          Nossa História
+          <Link to="/about">
+            Nossa História
+          </Link>
         </li>
         <li>
-          Atuação
+          <Link to="/atuacao">
+            Atuação
+          </Link>
         </li>
         {/* <li>
           Processos
         </li> */}
         <li>
-          Contato
+          <Link to="/contato">
+            Contato
+          </Link>
         </li>
       </ul>
       <div>
