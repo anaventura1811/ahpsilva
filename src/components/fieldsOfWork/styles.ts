@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const FieldsContainer = styled.div`
   width: 100vw;
+  height: 100vh;
   background-color: var(--main-background-color);
   display: flex;
   flex-direction: column;

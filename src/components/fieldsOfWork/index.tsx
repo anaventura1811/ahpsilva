@@ -8,7 +8,11 @@ const FieldsOfWork = (props: Props) => {
   const [clicked, setClick] = useState<any | string>(null);
 
   const handleClickOnField = (param: any | string) => {
-    setClick(param);
+    if(!clicked) {
+      setClick(param);
+    } else {
+      setClick(null);
+    }
   };
 
   return (

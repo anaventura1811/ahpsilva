@@ -12,24 +12,24 @@ export default function Nav(_props: Props) {
       </div>
       <div className='space' />
       <ul>
-        <li>
+        {/* <li>
           Artigos
-        </li>
+        </li> */}
         <li>
           Nossa História
         </li>
         <li>
           Atuação
         </li>
-        <li>
+        {/* <li>
           Processos
-        </li>
+        </li> */}
         <li>
           Contato
         </li>
       </ul>
       <div>
-        <FaUserCircle color="#f4f4f4" size={25} />
+        {/* <FaUserCircle color="#f4f4f4" size={25} /> */}
       </div>
     </NavContainer>
   );

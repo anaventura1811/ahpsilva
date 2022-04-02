@@ -24,6 +24,19 @@ export const ContentContainer = styled.div`
     align-items: center;
   }
 
+  .title_underline {
+
+  }
+
+  .title_underline:after {
+
+  }
+  .contact-info {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--secondary-background-color);
+  }
+
   /* @media (max-width: 1200px) {
     .summary-container {
       flex-wrap: wrap;

@@ -5,6 +5,7 @@ import Nav from '../../components/nav';
 import Summary from '../../components/summary';
 import { Container, ContentContainer } from './styles';
 import FieldsOfWork from '../../components/fieldsOfWork';
+import ContactInfo from '../../components/contact';
 
 type Props = {}
 
@@ -44,6 +45,9 @@ export default function Home(props: Props) {
         <div className='fields-of-work'>
           <FieldsOfWork />
 
+        </div>
+        <div className='contact-info'>
+          <ContactInfo />
         </div>
       </ContentContainer>
     </div>
