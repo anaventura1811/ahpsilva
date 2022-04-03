@@ -17,7 +17,7 @@ export default function Nav(_props: Props) {
           Artigos
         </li> */}
         <li>
-          <Link to="/about">
+          <Link to="/nossa-historia">
             Nossa História
           </Link>
         </li>
