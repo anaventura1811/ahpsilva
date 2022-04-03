@@ -18,7 +18,7 @@ const ContactInfo = (props: Props) => {
         <div className='text-info'>
           <div className='subcontainer media-info'>
             <div className='info'>
-              <a href='https://api.whatsapp.com/send?phone=5531999690001&text=Oi,%20tenho%20uma%20dúvida'><IoLogoWhatsapp size={25} /> 31 9 9969-0001</a>
+              <a href='https://api.whatsapp.com/send?phone=5531996989408&text=Oi,%20tenho%20uma%20dúvida'><IoLogoWhatsapp size={25} /> 31 9 9969-0001</a>
               <p id="contact-email">contato@advocaciadocidadao.com</p> 
             </div>
             <div className='social-media'>
