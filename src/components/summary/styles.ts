@@ -13,12 +13,13 @@ export const SummaryContainer = styled.div`
   flex-wrap: nowrap;
   flex-direction: row;
   /* gap: 2rem; */
-  padding: 0 0 0 2rem;
+  padding: 0;
 
 
   .image-container {
     position: relative;
-    padding: 1rem;
+    padding-right: 2rem;
+    /* padding: 1rem; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,8 +27,11 @@ export const SummaryContainer = styled.div`
 
   .image-container > img {
     position: relative;
-    width: auto;
-    height: 30vw;
+    /* width: auto; */
+    border-radius: 100%;
+    width: 100%;
+    height: 35vw;
+    /* height: 95%; */
   }
 
   .history-text {
@@ -43,8 +47,10 @@ export const SummaryContainer = styled.div`
 
     .summary-btn {
       display: flex;
+      justify-content: flex-end;
       padding: 16px;
       font-family: var(--font-family-subtitle);
+      font-weight: 700;
       text-transform: uppercase;
       border: none;
       background-color: inherit;

@@ -5,7 +5,7 @@ export const CarouselContainer = styled.div`
   width: 100%;
   height: 35vw;
   padding-top: 0.5rem;
-  background-color: var(--secondary-background-color);
+  /* background-color: var(--secondary-background-color); */
 
   .inner {
     white-space: nowrap;
@@ -51,6 +51,6 @@ export const CarouselItem = styled.div`
   justify-content: center;
   height: 30vw;
   width: 33%;
-  background-color: var(--secondary-background-color);
+  /* background-color: var(--secondary-background-color); */
   color: var(--gray-background-color);
 `;

@@ -1,6 +1,6 @@
 import React from 'react';
-// import Carousel from '../../components/carousel';
-// import { CarouselItem } from '../../components/carousel/styles';
+import Carousel from '../../components/carousel';
+import { CarouselItem } from '../../components/carousel/styles';
 import Nav from '../../components/nav';
 import Summary from '../../components/summary';
 import { Container, ContentContainer } from './styles';
@@ -17,7 +17,8 @@ export default function Home(props: Props) {
         <Nav />
       </Container>
       <ContentContainer>
-        {/* <div className='main-content'>
+        <div className='main-content'>
+          <h2>Notícias</h2>
             <Carousel>
               <CarouselItem>
                 Item1
@@ -38,7 +39,7 @@ export default function Home(props: Props) {
                 Item6
               </CarouselItem>
             </Carousel>
-        </div> */}
+        </div>
         <div className='summary-container'>
           <Summary />
         </div>

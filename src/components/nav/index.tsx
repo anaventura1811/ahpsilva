@@ -1,6 +1,6 @@
 import { NavContainer } from './styles';
-import logo from '../../assets/logo/logo2.svg';
-// import {FaUserCircle} from 'react-icons/fa';
+import logo from '../../assets/logo/AntonioPereira-01.png';
+import {FaUserCircle} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 type Props = {};
@@ -38,7 +38,9 @@ export default function Nav(_props: Props) {
         </li>
       </ul>
       <div>
-        {/* <FaUserCircle color="#f4f4f4" size={25} /> */}
+        <Link to="/login">
+          <FaUserCircle color="#f4f4f4" size={25} />
+        </Link>
       </div>
     </NavContainer>
   );

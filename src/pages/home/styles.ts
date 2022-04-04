@@ -16,7 +16,7 @@ export const ContentContainer = styled.div`
     height: 100vh;
   }
 
-  background-color: var(--font-color);
+  /* background-color: var(--font-color); */
   .rodape {
     position: static;
     bottom: 0;

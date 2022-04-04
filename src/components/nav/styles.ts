@@ -13,7 +13,7 @@ export const NavContainer = styled.nav`
   position: relative;
   top: 0;
   width: 100%;
-  max-height: 10rem;
+  max-height: 15rem;
 
   ul {
     display: flex;
@@ -29,12 +29,14 @@ export const NavContainer = styled.nav`
 
   .logo-container {
     display: flex;
+    position: relative;
+    max-width: 100%;
 
     img {
+      position: relative;
       padding: 1rem;
-      width: 100%;
-      height: auto;
-      height: auto;
+      width: auto;
+      height: 8rem;
     }
   }
 
