@@ -8,9 +8,11 @@ type Props = {};
 export default function Nav(_props: Props) {
   return (
     <NavContainer>
-      <div className='logo-container'>
-        <img src={logo} alt="Logo do site AHP Silva"/>
-      </div>
+      <Link to="/">
+        <div className='logo-container'>
+          <img src={logo} alt="Logo do site AHP Silva"/>
+        </div>
+      </Link>
       <div className='space' />
       <ul>
         {/* <li>

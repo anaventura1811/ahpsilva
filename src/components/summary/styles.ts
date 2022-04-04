@@ -40,6 +40,24 @@ export const SummaryContainer = styled.div`
     > h2 {
       font-weight: 700;
     }
+
+    .summary-btn {
+      display: flex;
+      padding: 16px;
+      font-family: var(--font-family-subtitle);
+      text-transform: uppercase;
+      border: none;
+      background-color: inherit;
+      color: var(--secondary-background-color);
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .summary-btn:hover {
+      filter: brightness(0.9);
+      text-decoration: underline;
+      text-decoration-color: var(--secondary-font-color);
+    }
   }
 
   @media (max-width: 980px) {
