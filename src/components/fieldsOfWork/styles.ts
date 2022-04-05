@@ -10,7 +10,7 @@ export const FieldsContainer = styled.div`
 
   h2 {
     text-align: left;
-    padding: 0 1rem;
+    padding: 2rem;
   }
 
   ul {
@@ -18,7 +18,7 @@ export const FieldsContainer = styled.div`
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 1rem;
+    gap: 0.5rem;
     align-items: center;
 
     .description {

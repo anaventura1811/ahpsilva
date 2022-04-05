@@ -1,11 +1,17 @@
 import React from 'react';
-import Carousel from '../../components/carousel';
-import { CarouselItem } from '../../components/carousel/styles';
+// import Carousel from '../../components/carousel';
+// import { CarouselItem } from '../../components/carousel/styles';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import Nav from '../../components/nav';
 import Summary from '../../components/summary';
 import { Container, ContentContainer } from './styles';
 import FieldsOfWork from '../../components/fieldsOfWork';
 import ContactInfo from '../../components/contact';
+import FollowUp from '../../components/followUp';
+import Testimonials from '../../components/testimonials';
+import { Pagination } from 'swiper';
+import "swiper/css";
+import "swiper/css/pagination";
 
 type Props = {}
 
@@ -17,9 +23,31 @@ export default function Home(props: Props) {
         <Nav />
       </Container>
       <ContentContainer>
-        <div className='main-content'>
-          <h2>Notícias</h2>
-            <Carousel>
+        <div className='summary-container'>
+            <Summary />
+        </div>
+      
+      
+        <div>
+          <Testimonials />
+        </div>
+      
+
+        <div className='fields-of-work'>
+          <FieldsOfWork />
+        </div>
+      
+        <div className='follow-up-container'>
+          <FollowUp />
+        </div>
+      
+        <div className='contact-info'>
+          <ContactInfo />
+        </div>
+         
+        {/* <div className='main-content'> */}
+          {/* <h2>Notícias</h2> */}
+            {/* <Carousel>
               <CarouselItem>
                 Item1
               </CarouselItem>
@@ -38,18 +66,8 @@ export default function Home(props: Props) {
               <CarouselItem>
                 Item6
               </CarouselItem>
-            </Carousel>
-        </div>
-        <div className='summary-container'>
-          <Summary />
-        </div>
-        <div className='fields-of-work'>
-          <FieldsOfWork />
-
-        </div>
-        <div className='contact-info'>
-          <ContactInfo />
-        </div>
+            </Carousel> */}
+        {/* </div> */}
         <footer className='rodape'>
             <p>Copyright - Escritório AHP Silva. Todos os direitos reservados. 2022</p>
         </footer>

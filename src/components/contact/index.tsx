@@ -14,7 +14,7 @@ const ContactInfo = (props: Props) => {
   return (
     <ContactInfoContainer>
       <div className='container'>
-        <h2 className='title_underline'>Contato</h2>
+        <h2>Contato</h2>
         <div className='text-info'>
           <div className='subcontainer media-info'>
             <div className='info'>

@@ -5,7 +5,7 @@ export const ContactInfoContainer = styled.div`
   flex-direction: column;
   font-family: var(--font-family-subtitle); 
   font-weight: 300;
-  color: var(--gray-background-color);
+  color: var(--font-color);
   position: relative;
 
   .container {
@@ -19,20 +19,6 @@ export const ContactInfoContainer = styled.div`
       align-self: flex-start;
       padding: 2rem;
     }
-
-    .title_underline {
-
-    }
-
-    .title_underline::after {
-      content: '';
-      display: inline-flex;
-      width: 16px;
-      height: 4px;
-      background-color: var(--secondary-font-color);
-      margin-left: 0.1rem;
-    }
-
 
     .text-info {
       display: flex;
