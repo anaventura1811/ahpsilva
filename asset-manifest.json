@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ahpsilva/static/css/main.2435d4ca.css",
+    "main.js": "/ahpsilva/static/js/main.9b8e3b5a.js",
+    "static/js/787.1c09eaa6.chunk.js": "/ahpsilva/static/js/787.1c09eaa6.chunk.js",
+    "static/media/foto.svg": "/ahpsilva/static/media/foto.94ed75862699b6d897ebd94d9ee5b6d2.svg",
+    "static/media/AntonioPereira-01.png": "/ahpsilva/static/media/AntonioPereira-01.fb10d3010b923a9856c2.png",
+    "static/media/questions.svg": "/ahpsilva/static/media/questions.e2c3bab319c382f2fb8c1eda37826385.svg",
+    "index.html": "/ahpsilva/index.html",
+    "static/media/computer.svg": "/ahpsilva/static/media/computer.481fcc2c1d34e5f0c1901f19d1f39728.svg",
+    "static/media/user.svg": "/ahpsilva/static/media/user.fae4469d7551186d6bcffda9c55e1be3.svg",
+    "main.2435d4ca.css.map": "/ahpsilva/static/css/main.2435d4ca.css.map",
+    "main.9b8e3b5a.js.map": "/ahpsilva/static/js/main.9b8e3b5a.js.map",
+    "787.1c09eaa6.chunk.js.map": "/ahpsilva/static/js/787.1c09eaa6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2435d4ca.css",
+    "static/js/main.9b8e3b5a.js"
+  ]
+}
