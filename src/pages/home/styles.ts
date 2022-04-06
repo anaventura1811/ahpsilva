@@ -74,6 +74,13 @@ export const ContentContainer = styled.div`
     background-color: var(--main-background-color);
   }
 
+  @media (max-width: 420px) {
+    .summary-container {
+      height: 100vh;
+      font-size: 3vw;
+    }
+  }
+
   /* @media (max-width: 1200px) {
     .summary-container {
       flex-wrap: wrap;

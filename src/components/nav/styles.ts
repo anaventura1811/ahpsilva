@@ -34,9 +34,9 @@ export const NavContainer = styled.nav`
 
     img {
       position: relative;
-      padding: 1rem;
+      /* padding: 1rem; */
       width: auto;
-      height: 8rem;
+      height: 7rem;
     }
   }
 
