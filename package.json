@@ -1,6 +1,6 @@
 {
   "name": "ahpsilva-app",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.22",
@@ -30,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b develop-branch-v1 -d build"
+    "deploy": "gh-pages -b develop-branch-v2 -d build"
   },
   "eslintConfig": {
     "extends": [
